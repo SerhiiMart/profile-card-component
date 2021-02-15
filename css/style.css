@@ -11,23 +11,24 @@ html {
 }
 
 body {
-  background-image: url("/images/bg-pattern-top.svg"), url("/images/bg-pattern-bottom.svg");
-  background-repeat: no-repeat;
-  background-color: #19a2ae;
-  font-family: "Kumbh Sans", sans-serif;
-  font-size: 2.25rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-image: url("/images/bg-pattern-top.svg"), url("/images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat;
   min-height: 100vh;
+  background-color: #19a2ae;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 2.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding: 3rem;
-  background-position: right calc(47vw + 15%) bottom calc(65vh - 15vw), left calc(40vw + 25%) top calc(72vh - 10vw);
+  background-position: right calc(47vw + 16%) bottom calc(65vh - 15vw), left calc(40vw + 25%) top calc(72vh - 10vw);
   overflow-y: hidden;
 }
 
@@ -68,10 +69,10 @@ body {
 }
 
 .profile__body__img {
-  margin-top: -7.5rem;
   margin-bottom: 3rem;
   border: 5px solid white;
   border-radius: 50%;
+  margin-top: -7.5rem;
 }
 
 .profile__body__title {
@@ -112,10 +113,6 @@ body {
   padding-right: 7rem;
 }
 
-.info {
-  text-align: center;
-}
-
 .info__subs {
   margin-bottom: 1rem;
   color: #2d3248;
@@ -123,7 +120,7 @@ body {
 }
 
 .info__type {
-  color: #969696;
+  color: #6a6f81;
   font-size: 1.25rem;
   gap: 1px;
 }
